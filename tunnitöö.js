@@ -5,7 +5,7 @@ if (Rahakott<tooteHind){
     alert("Sa ei saa seda osta, sul jäi puudu " +rahaarv)
 }
 if (Rahakott>tooteHind){ 
-    confirmAction = confirm ("Kas sa soovid seda osta");
+    confirmAction = confirm ("Kas sa soovid seda osta, sul on " +Rahakott);
 
     if (confirmAction==false){
         alert ("Sa ei ostnud seda, sul on " +Rahakott +" eurot üle");     
