@@ -10,7 +10,6 @@ if (Rahakott>tooteHind){
     if (confirmAction==false){
         alert ("Sa ei ostnud seda, sul on " +Rahakott +" eurot üle");     
     }
-     else 
-         alert ("Sa ostsid selle sul on üle " +rahaarv +" eurot järel"); 
-    
+    else 
+        alert ("Sa ostsid selle sul on üle " +rahaarv +" eurot järel");     
 }
