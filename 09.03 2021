@@ -1,7 +1,7 @@
-Rahakott = Math.random()*50  //$
-tooteHind = 25
-if (tooteHind > Rahakott){
-    console.log("Sa ei saa seda osta")
+Rahakott = Math.random()*50  //$ randomiseerib, kui palju raha kliendil onn
+tooteHind = 25               // kui palju toode maksab
+if (tooteHind > Rahakott){   //võrdleb kui palju rahakottis raha on tootehinnaga
+    console.log("Sa ei saa seda osta seda, sul on puudu")      //vastus kui rahakottis on vähem raha kui tootehind
 }
-else console.log("sul on piisavalt raha")
+else console.log("sul on piisavalt, raha jäi üle")
 console.log(Rahakott-tooteHind)
