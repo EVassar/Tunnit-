@@ -1,5 +1,15 @@
-HPA302 x33  Price 350
-HpSmartKeyboard x35 Price 50
-HpMouse x35 Price 25
-HPMonitor x1  Price 200
-DellTV x5 Price 400
+Product firelds: name, amount, price, id, color, Ordered
+
+HP Eliteone [36] Price=350 id="HPAS305" color='silver'
+Hp Smart Keyboard [35] Price=50 id="HPSKBB356" color='black' Ordered='0'
+Hp Mouse [35] Price=25 id="HPMB3" color='black' Ordered='0'
+Dell TV [5] Price=400 id="DTVB2" color='black'
+Lauad [23] Price=30 id="TBLC2" color='clear' Ordered='0'
+Kõlarid [2] Price=87 id="SPKRB3" color='black' Ordered='0'
+Toolid [45] Price=40 id="CHRW1" color='white' Ordered='0'
+Projektor [1] Price=100 id="PRJKRW302" color='white' Ordered='0'
+
+
+Tellimused
+Phonenumber="+372 xxx xxxx" address='Pärnu mnt 55' OrderName=Yeet id="HPAS305" Amount='3'; id='DTVB2'Amount='2' Paid='true'
+Phonenumber="+372 xxx xxxx" address='Pärnu mnt 32' id="HPAS305" Amount='1'; id='DTVB2'Amount='1' Paid='false'
