@@ -1,0 +1,44 @@
+let summa = function (){
+    
+}
+
+
+typeof summa        //näitab mis sorti info on muutuja sees.
+typeof gkjksfdjgksj        //kui pole defineeritud siis see tähendab undefined
+
+//  primitive types:
+//  Number string boolean object function undefined null
+//  user defined types:
+//  Math
+
+//object näide, object laseb sul kaks asja defineerida ühe all. Object on tüüp mis salvesta key-value paare.
+//key: value,
+//let töötaja = {nimi: "Timo", palk: 10,}                         //töötav object
+let töötaja = {                                                  
+  nimi: "Timo",
+  palk: 10,
+  rahakott: 0,
+  maksapalka: function(){
+    rahakott += palk
+  }
+}
+let töötaja2 = {                                                  
+    nimi: "3",
+    palk: 10,
+    rahakott: 5,
+    maksapalka: function() {
+      this.rahakott += this.palk
+    }
+}
+let töötaja3 = {                                                  
+    nimi: "4o",
+    palk: 2,
+    rahakott: 18,
+    maksapalka: function(){
+      rahakott += palk
+    }
+    muuda.
+}
+töötaja2.muuda += 5
+töötaja2["palk"] += 5
+töötaja2.maksapalka()
