@@ -6,7 +6,7 @@ function cheackTemp(){
     if (temp>temphot){
         alert ("Temperatuur on liiga kõrge, Temperatuur on " +temp +" C°")
     }
-    else if (temp>tempnice  ){
+    else if (temp>tempnice){
         alert ("Temperatuur on paras, Temperatuur on " +temp +" C°")
     }
     else if (temp>tempcold) {
