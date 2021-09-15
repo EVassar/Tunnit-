@@ -7,10 +7,10 @@ GitHubi: homework/check temp
 */
 function checkTemp(){
     let temp = Math.floor(Math.random() * 60);      //C°
-    let tempcold=0
-    let tempnice=21
-    let temphot=41
-    if (temp>temphot){
+    let tempcold = 0
+    let tempnice = 20.9
+    let temphot = 40.9
+    if (temp > temphot){
         alert ("Temperatuur on liiga kõrge, Temperatuur on " +temp +" C°")
         return 1;
     }
