@@ -5,8 +5,8 @@ Katlal on kolm temperatuuri vahemiku
 41-60 on liiga kuum         tagastab 1
 GitHubi: homework/check temp
 */
-function checkTemp(){
-    let temp = Math.floor(Math.random() * 60);      //C°
+
+function checkTemp(temp){
     let tempcold = 0
     let tempnice = 20.9
     let temphot = 40.9

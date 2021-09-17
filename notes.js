@@ -42,3 +42,38 @@ let töötaja3 = {
 töötaja2.muuda += 5
 töötaja2["palk"] += 5
 töötaja2.maksapalka()
+
+/*
+//array[]
+//object{}
+*/
+
+let tahaTeada= prompt("Mis kuu kohta tahad teada");
+let kuu = ['','Jaanuar','Veebraur','Märts','April','Mai','Juuni','Juuli','August','September','Oktoober','November','Detsember']
+let et = [0,10,52,31,26,12,24];
+alert(kuu[tahaTeada] +" Kuus läks " +et[tahaTeada-1] +" KW");
+
+
+for (let i = 0; i <= 69; i++) console.log(i)
+    
+work =(x < 100)
+while(work){
+  console.log(x);
+  if (new date().getMinutes() >= 30)
+    work = false;
+}
+/*
+const kuu = []
+kuu[1]="Jaanuar";
+kuu[2]="Veebraur"
+kuu[3]="Märts"
+kuu[4]="April";
+kuu[5]="Mai"
+kuu[6]="Juuni"
+kuu[7]="Juuli";
+kuu[8]="August"
+kuu[9]="September"
+kuu[10]="Oktoober";
+kuu[11]="November"
+kuu[12]="Detsember"
+*/
