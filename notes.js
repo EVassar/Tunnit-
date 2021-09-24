@@ -98,8 +98,21 @@ list[1] // '2'
 list[2] // '3'
 list[3] // 'null'
 list[4] // 'undefined'
-list.filter(elem => elem > ) // 2,3
+
 fruits.indexOf("pear")//-1
 fruits.includes('pear')//false
 // indexOf tagastab kus positsioonil element arrays on
 // -1 on et ei ole arrays
+list.filter(elem => elem > ) // 2,3
+fruits.Push("kiwi")
+Fruits[4]= "watermelon"
+list.length
+list-1  //undefined
+list [list.length-1] 
+//create
+let element= document.createElement('li')
+//read
+document.querySelector(".red")//valib suvalise
+document.querySelectorAll('.red')//valib kõik
+//update
+
