@@ -77,3 +77,29 @@ kuu[10]="Oktoober";
 kuu[11]="November"
 kuu[12]="Detsember"
 */
+
+
+
+
+//CRUD
+//Create
+Read
+Update
+Delete
+Array CRUD
+Create
+['test',2,3,null]
+console.log([])
+let list = ['test',2,3,null]
+let fruits = ['orange','banana','apple']
+//Read
+list[0] // 'test'
+list[1] // '2'
+list[2] // '3'
+list[3] // 'null'
+list[4] // 'undefined'
+list.filter(elem => elem > ) // 2,3
+fruits.indexOf("pear")//-1
+fruits.includes('pear')//false
+// indexOf tagastab kus positsioonil element arrays on
+// -1 on et ei ole arrays
