@@ -18,3 +18,11 @@ for (a of offersArray) {
     if (a[1] > maxV[1]) maxV = a;
 }
 console.log (minV, maxV) 
+
+
+
+
+for (let i = 0; i < offersArray.length; i++){
+    offersArray[i].sort();
+}
+console.log(offersArray);
