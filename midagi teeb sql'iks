@@ -3,7 +3,6 @@ const readline = require('readline')
 var lineReader = readline.createInterface({
     input: fs.createReadStream('C:/Users/MM-21-498/Desktop/boooooomer/LE.txt')
 });
-  
 lineReader.on('line', function (line) {
     let sql = '('+line.replace(/\t/g,',')+')\n';
     fs.appendFile('list.txt', sql, function (err) {
