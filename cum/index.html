@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UwU Clicker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="style.css">
+</head>
+<body>
+    <div class=clicker><h1>UwU Clicker</h1></div>
+    <div class = 'count' id='count'>
+            Sa oled vajutanud 0 korda
+    </div>
+    <div class ='text-center'>
+       <img src='pngaaa.com-1004689.png' onclick='button()'>
+    </div>
+    <div class = 'idk' id='id01'>
+        <h2></h2>
+    </div>
+    <div class= 'help' id='id02'>
+
+    </div>
+    <script>
+        let sex = localStorage.getItem('count')
+        if (sex == NaN) {
+            let count =  0;
+        }
+        else{
+            let count = localStorage.getItem(count);
+        }
+        function button(){
+            var music = new Audio('uwu-recording-online-audio-converter.mp3');
+            music.play();
+            count ++
+            if(1 <= count){
+                const element = document.getElementById("count");
+                element.innerHTML = "Sa oled vajutanud "+count+' korda';
+            }
+            if(2 <= count){
+                const element = document.getElementById("id01");
+                element.innerHTML = "Otsi abi palun.";
+            }
+            if(10 <= count){
+                const element = document.getElementById("id01");
+                element.innerHTML = "Päriselt, su pere igatseb sind.";
+            }
+            if(20 <= count){
+                const element = document.getElementById("id01");
+                element.innerHTML = "Tõmba ennast oksa hoor.";
+            }
+            if(50 <= count){
+                const element = document.getElementById("id01");
+                element.innerHTML = "Miks sa seda ikka veel mängid?";
+            }
+            if(100 <= count){
+                const element = document.getElementById("id01");
+                element.innerHTML = "Dammn bro sa vajad abi fr bruh.";
+            }
+            if(100 <= count){
+                let btn = document.getElementById("id02");
+                btn.innerHTML = "Sa vajad abi.";
+                btn.onclick = function () {
+                    window.location.href = "http://www.betterhelp.com";
+                };
+                document.body.appendChild(btn);
+            }
+            setInterval(function(){ 
+                localStorage.setItem('count', count);
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
