@@ -100,3 +100,18 @@
     bottom: 60px;
     left: 30px;
  }
+ .contentbox{
+    position: absolute;
+    width: 1318px;
+    height: 813px;
+    left: 58px;
+    top: 120px;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.70);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: row;
+    border-radius: 90px;
+    margin-top: 60px auto;
+    justify-content: space-around;
+ }
