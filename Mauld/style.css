@@ -84,12 +84,11 @@
 }
  span{
     font-family: 'Nunito', sans-serif;
-    color: white;
+    color: rgba(255, 230, 230, 1);
     font-style: normal;
     font-weight: normal;
     font-size: 36px; 
     line-height: 50px;
-    display: flex;
     align-items: center; 
     text-align: center;
     left: 20px;
@@ -102,10 +101,10 @@
  }
  .contentbox{
     position: absolute;
-    width: 1318px;
-    height: 813px;
-    left: 58px;
-    top: 120px;
+    top: 150px;
+    left: 20%;
+    right: 20%;
+    height: 50%;
     align-content: center;
     background-color: rgba(0, 0, 0, 0.70);
     backdrop-filter: blur(10px);
