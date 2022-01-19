@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            background: yellow;
+            margin: 0 0 0 10em;
+        }
+        p{
+            background: url("tile.png") fuchsia repeat;
+            height: 3.5em;
+        }
+        p#x {
+            background-repeat: repeat-x;
+        }
+        p#y{
+            background-repeat: repeat-y;
+        }
+        p#no{
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <p><span>repeat</span></p>
+    <p id = "x"><span>repeat x</span></p>
+    <p id = "y"><span>repeat y</span></p>
+    <p id = "no"><span>no repeat</span></p>
+</body>
+</html>
