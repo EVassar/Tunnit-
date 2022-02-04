@@ -1,0 +1,16 @@
+p.bdr{
+    border: 5px outset red;
+}
+p.mgn{
+    margin: 1em;
+}
+p.txt{
+    font: 2em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+p.pad{
+    padding: 0.5em;
+}
+p.bg{
+    background: yellow;
+}
