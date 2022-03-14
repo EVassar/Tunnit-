@@ -1,16 +1,13 @@
 body{ 
     margin: 0;
     padding: 0;
-
     background-size: cover;
     text-decoration: none;
 }
-
 .box{
   top: 0px;
   left: 0;
-  right: 0;
-  height: 2px;
+  right: 0; 
   align-content: center;
   position: absolute;
   height: 120px;
@@ -131,4 +128,38 @@ span{
     border-radius: 200px;
     justify-content: space-around;
     padding: 2.5%;
+}
+.gallery {
+    position: relative;
+    top: 40%;
+    margin: 10px;
+    width: 17.5%;
+    float: left;
+    transition: 0.5s;
+    padding: 5px;
+/*    display: flex;
+    flex-direction: row;
+*/
+} 
+.gallery img {
+    width: 100%;
+    height: auto;
+    box-shadow: 6px 12px rgba(0, 0, 0, 0.4);
+}
+.gallery:hover{
+    transform: scale(1.6);
+    z-index: 4;
+}
+.gallery::after{
+    z-index: 3;
+}
+.row{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
 }
