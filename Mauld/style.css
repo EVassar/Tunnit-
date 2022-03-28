@@ -163,3 +163,30 @@ span{
     clear: both;
     display: table;
 }
+.timebox{
+    margin: auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;    
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.70);
+    backdrop-filter: blur(10px);
+    border-radius: 100px;
+    justify-content: space-around;
+    padding: 2.5%;
+    transform: translate(-50%, -50%);
+}
+h6{
+    font-family: 'Nunito', sans-serif;
+    color: rgba(255, 230, 230, 1);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px; 
+    line-height: 50px;
+    align-items: center; 
+    text-align: center;
+    left: 20px;
+    text-decoration: none !important;
+    border:0;
+}
